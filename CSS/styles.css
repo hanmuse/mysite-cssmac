@@ -50,13 +50,13 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 600px;
+  right: 300px;
   margin-top: 30px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 600px;
+  left: 300px;
 }
 
 .mountain {
@@ -85,7 +85,7 @@ hr {
 }
 
 .skill-row {
-  width: 25%;
+  width: 30%;
   margin: 50px auto 50px auto;
   text-align: left;
   line-height: 2;
