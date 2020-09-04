@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  background-color: white;
+  margin: 0;
+}
+
+h1 {
+  margin: 0 auto;
+  padding-top: 100px;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Cabin', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Cabin', sans-serif;
+}
+
+p {
+  font-family: 'Cabin', sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0;
+}
+
+hr {
+  border: dotted #EAF6F6 5px;
+  border-bottom: none;
+  width: 50px;
+  margin: 50px auto;
+}
+
+/****** CLASS SELECTORS ******/
+.top-container {
+  position: relative;
+  background-color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  margin-top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+}
+
+.mountain {
+  display: block;
+  margin: auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  background-color: white;
+  position: relative;
+}
+
+.intro {
+  color: #40514E;
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.mypic {
+  margin: 50px auto 50px auto;
+}
+
+.skill-row {
+  width: 25%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-design {
+  float: left;
+  margin-right: 50px;
+}
+
+.painting {
+  float: right;
+  margin-left: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px;
+  color: white;
+}
+
+.contact-me {
+  width: 25%;
+  margin: 0 auto 30px auto;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-box-shadow: 0 1px 13px 0 #FFFFFF;
+  -moz-box-shadow: 0 1px 13px 0 #FFFFFF;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 10px;
+  background-color: #66BFBF;
+  box-shadow: 0 1px 13px 0 #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+
+.btn:hover {
+  background: #53544A;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #11999E;
+  padding: 20px;
+}
